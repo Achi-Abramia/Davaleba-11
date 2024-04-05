@@ -13,6 +13,22 @@
     list-style: none;
   }
 
+  /* FONTS */
+
+  .logo,
+  .title {
+    font-family: "ultra";
+  }
+
+  .nav {
+    font-family: "dmsans";
+  }
+
+  .contact,
+  .title-small,
+  .intro-text {
+    font-family: "oswald";
+  }
   /* HEADER */
   
   .header-bg {
@@ -50,7 +66,7 @@
   
   .header-bar {
     color: #ffffff;
-    width: 1400px;
+    width: 1500px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -74,30 +90,73 @@
 }
 
   .introduction {
-    width: 1400px;
+    width: 1500px;
     display: flex;
     margin: 0 auto;
-    gap: 320px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    gap: 430px;
+    padding-top: 150px;
+    padding-bottom: 145px;
   }
 
-  .main-image {
-    position: relative;
-  }
-
-  .arrow-bottom {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 25px;
-  }
-  
   .info {
     color: #ffffff;
     width: 500px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+  }
+
+  .main-image {
+    position: relative;
+    width: 350px;
+    height: 400px;
+  }
+
+  .green-bg {
+    position: absolute;
+    left: -50px;
+    z-index: 10;
+  }
+
+  .dots-bg {
+    position: absolute;
+    left: -106px;
+    top: 70px;
+    z-index: 20;
+  }
+
+  .bread-bg {
+    position: absolute;
+    top: -155px;
+    left: -70px;
+    z-index: 30;
+  }
+
+  .shape-bg {
+    position: absolute;
+    top: -20px;
+    right: -85px;
+    z-index: 15;
+  }
+
+  .oval-bg {
+    position: absolute;
+    bottom: -95px;
+    right: -115px;
+    z-index: 40;
+  }
+
+  .person-bg {
+    position: absolute;
+    right: -103px;
+    top: 27px;
+    z-index: 50;
+  }
+
+  .arrow-bottom {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
   }
   
   .title-small {
@@ -107,21 +166,21 @@
   }
   
   .title {
-    font-size: 72px;
-    line-height: 80px;
-    width: 500px;
+    font-size: 62px;
+    line-height: 1;
+    width: 700px;
   }
   
   .intro-text {
     font-size: 20px;
     line-height: 32px;
     font-weight: 400;
-    width: 400px;
+    width: 350px;
   }
   
   .relative-top {
     position: relative;
-    width: 1400px;
+    width: 1500px;
     margin: 0 auto;
   }
   
@@ -142,7 +201,7 @@
   
   .relative-bottom {
     position: relative;
-    width: 1400px;
+    width: 1500px;
     margin: 0 auto;
   }
   
