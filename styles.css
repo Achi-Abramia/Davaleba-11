@@ -29,7 +29,21 @@
   .intro-text {
     font-family: "oswald";
   }
+
+  /* END OF FONTS */
+
   /* HEADER */
+
+  .relative-top {
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .shape-top {
+    position: absolute;
+    right: 350px;
+  }
   
   .header-bg {
     background-color: #171b1b;
@@ -83,7 +97,7 @@
   
 /* END OF HEADER */
 
-/* Main Page   */
+/* MAIN PAGE   */
 
  .main-page {
   background-color: #171b1b;
@@ -177,17 +191,8 @@
     font-weight: 400;
     width: 350px;
   }
-  
-  .relative-top {
-    position: relative;
-    width: 1500px;
-    margin: 0 auto;
-  }
-  
-  .shape-top {
-    position: absolute;
-    right: 350px;
-  }
+
+  /* END OF MAIN PAGE */
   
   .relative-side {
     position: relative;
