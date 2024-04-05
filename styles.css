@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .header-bg {
+    background-color: #171b1b;
+    padding: 15px;
+  }
+  
+  .logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-nav li {
+    padding-right: 60px;
+  }
+  
+  .logo {
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+  }
+  
+  .nav {
+    margin-left: 60px;
+  }
+  
+  .nav ul {
+    display: flex;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  
+  .header-bar {
+    color: #ffffff;
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact {
+    font-size: 16px;
+    line-height: 23.71px;
+    font-weight: 400;
+    border: 1px solid #ffffff4b;
+    padding: 15px 50px;
+  }
+  
+  .introduction {
+    background-color: #171b1b;
+  }
+  
+  .info {
+    color: #ffffff;
+    width: 1400px;
+    margin: 0 auto;
+    /* border: 1px solid #ffffff4b; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 250px;
+  }
+  
+  .info div {
+    margin-bottom: 30px;
+  }
+  
+  .title-small {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+  }
+  
+  .title {
+    font-size: 72px;
+    line-height: 80px;
+    width: 500px;
+  }
+  
+  .intro-text {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    width: 400px;
+  }
+  
+  .relative-top {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .shape-top {
+    position: absolute;
+    right: 350px;
+  }
+  
+  .relative-side {
+    position: relative;
+  }
+  
+  .shape-side {
+    position: absolute;
+    right: 0;
+    bottom: 140px;
+  }
+  
+  .relative-bottom {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .shape-bottom {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    max-height: 130px;
+    overflow: hidden;
+  }
+  
+  .green-bg {
+    position: absolute;
+  }
+  
