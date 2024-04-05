@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "dmsans";
+    src: url("fonts/dmsans.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "ultra";
+    src: url("fonts/ultra.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "dmsans";
+    src: url("fonts/oswald.ttf") format("ttf");
+}
