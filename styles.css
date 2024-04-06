@@ -95,6 +95,10 @@
     padding: 15px 50px;
   }
   
+  .mobile-menu {
+    display: none;
+  }
+
 /* END OF HEADER */
 
 /* MAIN PAGE   */
@@ -194,6 +198,8 @@
 
   /* END OF MAIN PAGE */
   
+  /* SAPE IMAGES */
+
   .relative-side {
     position: relative;
   }
@@ -218,3 +224,69 @@
     max-height: 140px;
     overflow: hidden;
   }
+
+  /* END OF SHAPE IMAGES */
+
+  /* Mobile  */
+
+  @media (max-width:375px) {
+
+    header {
+      width: 100%;
+    }
+    
+    .relative-top,
+    .nav,
+    .shape-images,
+    .contact {
+      display: none;
+    }
+
+    .header-bar {
+      width: 100%;
+    }
+
+    .logo {
+      margin-bottom: 0px;
+    }
+
+    .mobile-menu {
+      display: block;
+    }
+
+    .introduction {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      margin: 0 auto;
+      gap: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      
+    }
+
+    .title {
+      font-size: 36px;
+      width: 350px;
+    }
+
+    .main-image {
+      scale: 0.6;
+      left: -20px;
+    }
+
+    .info {
+      scale: 0.9;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .intro-text {
+      font-size: 25px;
+      width: 320px;
+    }
+  
+
+}
